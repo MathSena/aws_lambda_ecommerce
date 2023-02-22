@@ -4,6 +4,7 @@ import * as cdk from 'aws-cdk-lib'
 import * as dynadb from 'aws-cdk-lib/aws-dynamodb'
 import { Construct } from 'constructs'
 import * as ssm from 'aws-cdk-lib/aws-ssm'
+import { Tracing } from 'aws-cdk-lib/aws-lambda'
 
 export class ProductsAppStack extends cdk.Stack {
   readonly productsFetchHandler: lambdaNodeJS.NodejsFunction
@@ -54,7 +55,8 @@ export class ProductsAppStack extends cdk.Stack {
         environment: {
           PRODUCTS_DDB: this.productsDbd.tableName
         },
-        layers: [productsLayer]
+        layers: [productsLayer],
+        tracing: lambda.Tracing.ACTIVE
       }
     )
 
@@ -77,7 +79,8 @@ export class ProductsAppStack extends cdk.Stack {
         environment: {
           PRODUCTS_DDB: this.productsDbd.tableName
         },
-        layers: [productsLayer]
+        layers: [productsLayer],
+        tracing: lambda.Tracing.ACTIVE
       }
     )
 
