@@ -23,9 +23,9 @@ O projeto é referente a criação de duas Lambda functions na AWS + Banco de Da
 [https://ygk96o66n8.execute-api.us-east-1.amazonaws.com/products](https://3qo8twq519.execute-api.us-east-1.amazonaws.com/prod/products)
 ```
 
-- GET  Produtos
+- GET Produtos por ID
 ```
-[https://ygk96o66n8.execute-api.us-east-1.amazonaws.com/products](https://3qo8twq519.execute-api.us-east-1.amazonaws.com/prod/products)
+[https://ygk96o66n8.execute-api.us-east-1.amazonaws.com/products](https://3qo8twq519.execute-api.us-east-1.amazonaws.com/prod/products/{id})
 ```
 
 
