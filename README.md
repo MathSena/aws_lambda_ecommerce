@@ -3,7 +3,9 @@
 
 ## Contexto
 
-O projeto é referente a criação de duas Lambda functions na AWS + Banco de Dados (DynamoDB) na qual uma é referente a leitura de produtos e a outra a atualização e cadastro de produtos através de uma API Gateway
+O projeto é referente a criação de duas Lambda functions na AWS + Banco de Dados (DynamoDB) na qual uma é referente a leitura de produtos e a outra a atualização e cadastro de produtos através de uma API Gateway.
+
+Utilizamos 2 lambdas para separar por função, sendo assim ser possível uma fácil manutenção de alguma alteração futura na aplicação
 
 ## Integrantes do Grupo
 
@@ -13,7 +15,6 @@ O projeto é referente a criação de duas Lambda functions na AWS + Banco de Da
 - RM 344536 - <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/lucca-braz-a31755b5">Lucca Braz</a>
 
 ## Utilização
-
 
 
 ### Endpoints
