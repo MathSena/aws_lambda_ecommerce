@@ -44,12 +44,14 @@ O projeto é referente a criação de duas Lambda functions na AWS + Banco de Da
 
 ### Postman
 
-Na pasta `postman`, na raiz do projeto, está a collection para ser importada localmente.
+Na pasta `postman`, na raiz do projeto, existe uma collection para ser importada localmente.
 
 ## Arquitetura
+![arquitetura](./assets/arquitetura.jpg)
 
-![arquitetura]
-
+## Cloudwatch
+Implementamos a ferramenta de cloudwatch para análise de métricas
+![CloudWatch](./assets/cloudwatch.JPG)
 
 
 # Welcome to your CDK TypeScript project
