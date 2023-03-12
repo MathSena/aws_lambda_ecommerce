@@ -1,5 +1,5 @@
 
-# Projeto de Conclusão da Disciplina de SERVERLESS ARCHITECTURE - FIAP
+# Projeto da Disciplina de SERVERLESS ARCHITECTURE - FIAP
 
 ## Contexto
 
